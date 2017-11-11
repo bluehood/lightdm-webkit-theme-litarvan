@@ -1,13 +1,5 @@
-# Files and directories created by pub
-.packages
-.pub/
-build/
 .idea/
-
-# Remove the following pattern if you wish to check in your lock file
-pubspec.lock
-
-# Directory created by dartdoc
-doc/api/
-
+dist/
+node_modules/
+old/
 *.tar.gz
