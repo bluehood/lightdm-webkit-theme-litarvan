@@ -11,6 +11,26 @@ html, body {
   margin: 0;
 }
 
+.not-displayed {
+  display: none;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.fade {
+  transition: opacity 300ms ease-in-out;
+}
+
+#loading {
+  margin-top: calc(50vh - 125px);
+  width: 100%;
+
+  color: white;
+  text-align: center;
+}
+
 // Manually added Google Fonts (no internet connection during login)
 
 @font-face {

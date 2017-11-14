@@ -11,7 +11,20 @@
   <script src="assets/lightdm.js"></script>
 </head>
 <body>
-  <litarvan-root class="fade hidden"></litarvan-root>
+  <litarvan-root></litarvan-root>
+
+  <div id="loading" class="fade not-displayed hidden">
+    <img id="logo" src="assets/images/arch.svg" />
   </div>
+
+  <script defer>
+      setTimeout(() => {
+          document.querySelector("#loading").classList.remove("not-displayed");
+      }, 500);
+
+      setTimeout(() => {
+          document.querySelector("#loading").classList.remove("hidden");
+      }, 1000);
+  </script>
 </body>
 </html>
