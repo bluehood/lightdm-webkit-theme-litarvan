@@ -4,6 +4,7 @@ import { APP_INITIALIZER, NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './components/app/app.component';
 import { LoadingService } from "./services/loading.service";
+import { ThemeService } from "./services/theme.service";
 
 export function loadingServiceFactory(loading: LoadingService): Function
 {
@@ -25,7 +26,8 @@ export function loadingServiceFactory(loading: LoadingService): Function
             deps: [LoadingService],
             multi: true
         },
-        LoadingService
+        LoadingService,
+        ThemeService
     ],
     bootstrap: [AppComponent]
 })

@@ -1,4 +1,5 @@
-import {Component, OnInit} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { ThemeService } from "../../services/theme.service";
 
 @Component({
     selector: 'litarvan-root',
@@ -8,6 +9,10 @@ import {Component, OnInit} from '@angular/core';
 export class AppComponent implements OnInit
 {
     initialized = false;
+
+    constructor(public theme: ThemeService)
+    {
+    }
 
     ngOnInit(): void
     {
