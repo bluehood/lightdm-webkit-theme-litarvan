@@ -4,7 +4,7 @@ import { Injectable } from "@angular/core";
 export class ThemeService
 {
     private defaults = {
-        "background": "assets/images/background.default.jpg"
+        "background": "assets/images/background.default.png"
     };
 
     get background(): string

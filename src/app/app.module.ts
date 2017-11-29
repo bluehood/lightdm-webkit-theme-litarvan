@@ -5,6 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './components/app/app.component';
 import { LoadingService } from "./services/loading.service";
 import { ThemeService } from "./services/theme.service";
+import { SplashComponent } from "./components/splash/splash.component";
+import { ClockComponent } from "./components/clock/clock.component";
+import { LangService } from "./services/lang.service";
 
 export function loadingServiceFactory(loading: LoadingService): Function
 {
@@ -13,7 +16,9 @@ export function loadingServiceFactory(loading: LoadingService): Function
 
 @NgModule({
     declarations: [
-        AppComponent
+        AppComponent,
+        SplashComponent,
+        ClockComponent
     ],
     imports: [
         BrowserModule,
@@ -27,6 +32,7 @@ export function loadingServiceFactory(loading: LoadingService): Function
             multi: true
         },
         LoadingService,
+        LangService,
         ThemeService
     ],
     bootstrap: [AppComponent]
