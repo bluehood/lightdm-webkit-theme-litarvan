@@ -1,0 +1,12 @@
+litarvan-clock {
+    margin-top: 25px;
+}
+
+#trigger {
+    font-family: "Lato", "Noto Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 32px;
+
+    margin-top: calc(100vh - 375px);
+}

@@ -5,7 +5,9 @@ const LANGS = ['en_US', 'fr_FR'];
 const DEFAULT_LANG = {
     date: 'weekd day month year',
     days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
-    months: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+    months: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+
+    splash: "Press 'Space' or 'Enter' to login"
 };
 
 @Injectable()
