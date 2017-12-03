@@ -6,3 +6,4 @@ I just badly awkwardly and sub-optimally patched a couple of things to make the 
 
 The duration of the ArchLinux splash screen is reduced from 2 to .8 seconds and the splash screen with the clock is skipped -- the login prompt is displayed right away.
 
+Many thanks to @litarvan for the awesome theme.
