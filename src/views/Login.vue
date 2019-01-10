@@ -197,6 +197,7 @@
 
     #password {
         font-weight: 300;
+        text-align: center;
     }
 
     #password, #password:focus {
