@@ -34,7 +34,7 @@ function save(s) {
 
 function avatar(avatar) {
     if (!avatar || avatar === '') {
-        return require('./assets/images/default_user.png');
+        return require('./assets/images/default_user.svg');
     }
 
     if (avatar === 'litarvan') {
