@@ -16,7 +16,7 @@
         methods: {
             isBlured() {
                 let name = this.$router.currentRoute.name;
-                return name === 'login' || name === 'select';
+                return false;
             }
         }
     };
