@@ -35,7 +35,7 @@
                 setTimeout(() => {
                     this.show = false;
                     this.$router.push(settings.first ? '/setup' : (settings.disableSplash ? '/base/login' : '/base/splash'));
-                }, 2000);
+                }, 1500);
             }
         },
 
@@ -78,7 +78,7 @@
     }
 
     .logo-fade-enter-active, .logo-fade-leave-active {
-        transition: opacity 1s;
+        transition: opacity 0.4s;
     }
 
     .logo-fade-enter, .logo-fade-leave-to {
