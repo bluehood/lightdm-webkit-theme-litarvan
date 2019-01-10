@@ -4,7 +4,7 @@
             <img class="icon" :src="icon()" />
         </div>
 
-        {{ mode === 'user' ? item.display_name : item.name }} <span v-if="mode === 'user'">/ <span class="username">{{ item.username }}</span></span>
+        <span class="username">{{ item.username }}</span>
     </div>
 </template>
 
